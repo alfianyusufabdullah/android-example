@@ -5,6 +5,7 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         etText = findViewById(R.id.etText);
 
         inputText = findViewById(R.id.inputText);
-        
+
         btnShortToast = findViewById(R.id.btnShortToast);
         btnShortToast.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
 
                 String text = etText.getText().toString();
 
-                if (text.isEmpty()){
+                if (text.isEmpty()) {
                     inputText.setError("Masukkan Text");
                     return;
                 }
 
-                Toast.makeText(MainActivity.this , text , Toast.LENGTH_SHORT).show();
+                hideSoftkey();
+
+                Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
                 inputText.setErrorEnabled(false);
 
             }
@@ -47,15 +50,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String text = etText.getText().toString();
-                if (text.isEmpty()){
+                if (text.isEmpty()) {
                     inputText.setError("Masukkan Text");
                     return;
                 }
 
-                Toast.makeText(MainActivity.this , text , Toast.LENGTH_LONG).show();
+                hideSoftkey();
+
+                Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
                 inputText.setErrorEnabled(false);
 
             }
         });
+    }
+
+    private void hideSoftkey() {
+        InputMethodManager im = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+        if (im != null) {
+            im.hideSoftInputFromWindow(etText.getWindowToken(), 0);
+        }
     }
 }
