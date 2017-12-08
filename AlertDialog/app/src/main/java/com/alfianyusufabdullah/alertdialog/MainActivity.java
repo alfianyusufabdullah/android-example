@@ -7,6 +7,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         inputText = findViewById(R.id.inputText);
+
         etText = findViewById(R.id.etText);
 
         btnDialog = findViewById(R.id.btnDialog);
@@ -62,9 +64,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void showDialog(boolean showButton, String Text) {
 
+        hideSoftkey();
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("AlertDialog");
-        builder.setMessage("Ini Message : " + Text);
+        builder.setMessage(Text);
 
         if (showButton) {
 
@@ -92,5 +96,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         builder.create().show();
+    }
+
+    private void hideSoftkey(){
+        InputMethodManager im = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+        if (im != null){
+            im.hideSoftInputFromWindow(etText.getWindowToken() , 0);
+        }
     }
 }

@@ -1,8 +1,10 @@
 package com.alfianyusufabdullah.alertdialog_kotlin
 
+import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.app.AlertDialog
+import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -42,9 +44,11 @@ class MainActivity : AppCompatActivity() {
 
     fun showDialogs(showButton: Boolean, text: String) {
 
+        hideSoftkey()
+
         val builder = AlertDialog.Builder(this)
         builder.setTitle("AlertDialog")
-        builder.setMessage("Ini Message : $text")
+        builder.setMessage(text)
 
         if (showButton) {
 
@@ -63,5 +67,10 @@ class MainActivity : AppCompatActivity() {
 
         builder.create().show()
 
+    }
+
+    fun hideSoftkey(){
+        val im = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        im.hideSoftInputFromWindow(etText.windowToken , 0)
     }
 }
