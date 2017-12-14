@@ -2,14 +2,14 @@
 
 ### Toast Android
 
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/AlertToast)** :fire::fire:
+* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Toast)** :fire::fire:
 * **Screenshoot**
 
 ![Toast](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/Toast.png)
 
 ### AlertDialog Android
 
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/AlertDialog)** :fire::fire:
+* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Dialog)** :fire::fire:
 * **Screenshoot**
 
 ![AlertDialog](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/dialog_1.png)
@@ -18,7 +18,7 @@
 
 ### Snackbar Android
 
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/AlertSnackbar)** :fire::fire:
+* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Snackbar)** :fire::fire:
 * **Screenshoot**
 
 ![Snackbar](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/snackbar_1.png)
