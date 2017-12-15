@@ -1,4 +1,4 @@
-package com.alfianyusufabdullah.alertdialog_kotlin
+package com.alfianyusufabdullah.alertsnackbar_kotlin
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.alfianyusufabdullah.alertdialog_kotlin
+package com.alfianyusufabdullah.alertsnackbar_kotlin
 
 import android.content.Context
 import android.support.v7.app.AppCompatActivity

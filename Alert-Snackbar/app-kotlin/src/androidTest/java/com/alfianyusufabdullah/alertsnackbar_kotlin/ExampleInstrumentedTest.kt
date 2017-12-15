@@ -1,4 +1,4 @@
-package com.alfianyusufabdullah.alertdialog_kotlin
+package com.alfianyusufabdullah.alertsnackbar_kotlin
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
