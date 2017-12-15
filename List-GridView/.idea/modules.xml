@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/List-GridView.iml" filepath="$PROJECT_DIR$/List-GridView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-kotlin/app-kotlin.iml" filepath="$PROJECT_DIR$/app-kotlin/app-kotlin.iml" />
     </modules>
   </component>
 </project>
