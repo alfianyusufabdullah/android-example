@@ -1,36 +1,22 @@
 # Android Example
 
-### Toast Android
+### Alert :sparkles:
 
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Toast)** :fire::fire:
-* **Screenshoot**
+| Project | Sample | Screenshoot |
+| :---: | :---: | :---: |
+| Toast | [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Toast) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
+| AlertDialog | [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Dialog) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
+| Snackbar | [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Snackbar) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
 
-![Toast](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/Toast.png)
+### List :sparkles:
 
-### AlertDialog Android
+| Project | Sample | Screenshoot |
+| :---: | :---: | :---: |
+| ListView | [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/List-ListView) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
+| GridView| [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/List-GridView) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
 
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Dialog)** :fire::fire:
-* **Screenshoot**
+### CRUD :sparkles:
 
-![AlertDialog](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/dialog_1.png)
-![AlertDialog1](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/dialog_2.png)
-![AlertDialog2](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/dialog_3.png)
-
-### Snackbar Android
-
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/Alert-Snackbar)** :fire::fire:
-* **Screenshoot**
-
-![Snackbar](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/snackbar_1.png)
-![Snackbar1](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/Alert/snackbar_2.png)
-
-### CRUD SQLite With Singleton Pattern
-
-* **[Sample](https://github.com/alfianyusufabdullah/android-example/tree/master/CRUD-Sqlite)** :fire::fire:
-* **Screenshoot**
-
-![CRUD](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/CRUD/bcrd_1.png)
-![CRUD1](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/CRUD/bcrd_2.png)
-![CRUD2](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/CRUD/bcrd_3.png)
-![CRUD3](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/CRUD/bcrd_4.png)
-![CRUD4](https://github.com/alfianyusufabdullah/android-example/raw/master/Screenshot/CRUD/bcrd_5.png)
+| Project | Sample | Screenshoot |
+| :---: | :---: | :---: |
+| SQLite | [Go!](https://github.com/alfianyusufabdullah/android-example/tree/master/CRUD-Sqlite) | [See Screenshoot](https://github.com/alfianyusufabdullah/android-example/blob/master/SCREENSHOOT.md) |
